@@ -1,16 +1,59 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: #E6E6E6;
+    color: #7B9669;
     padding: 50px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: blanchedalmond;
+    background-color: #7B9669;
     align-items: center;
+    padding: 1%;
+    color: white;
 }
 
 h1 {
     font-size: 100px;
+}
+
+.hero {
+    max-width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    margin-top: 50px;
+}
+
+button{
+    display: block;
+    margin: auto;
+}
+
+button:hover{
+    font-size: 120%;
+    color: blue;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.card {
+    background-color: #bac8b1;
+    border-radius: 15px;
+
+    padding: 30px;
+    min-height: 200px;
+}
+
+.card:hover {
+    background-color: #404e3b;
+    color: white;
+
+    transform: scale(1.05);
 }
